@@ -1,0 +1,3 @@
+C:/Users/tsuna/source/repos/Raytracer/out/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/tsuna/source/repos/Raytracer/out/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/tsuna/source/repos/Raytracer/out/build/src/CMakeFiles/Raytracer.dir

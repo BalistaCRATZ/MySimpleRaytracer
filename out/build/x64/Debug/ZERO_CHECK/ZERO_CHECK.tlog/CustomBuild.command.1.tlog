@@ -1,0 +1,10 @@
+^C:\USERS\TSUNA\SOURCE\REPOS\RAYTRACER\OUT\BUILD\CMAKEFILES\CA1DA33913151825AF9F4320916C1E05\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/tsuna/source/repos/Raytracer -BC:/Users/tsuna/source/repos/Raytracer/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tsuna/source/repos/Raytracer/out/build/Raytracer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

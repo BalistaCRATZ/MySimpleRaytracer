@@ -24,6 +24,15 @@
     <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\sphere.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\hittable_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\tsuna\source\repos\Raytracer\src\CMakeLists.txt" />

@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\out\\build\\x64\\Debug",
-    "\\out\\build\\x64\\Debug\\ALL_BUILD\\ALL_BUILD.tlog",
-    "\\out\\build\\x64\\Debug\\ZERO_CHECK",
-    "\\out\\build\\x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog",
     "\\src"
   ],
-  "SelectedNode": "\\src\\Raytracer.cpp",
+  "SelectedNode": "\\src\\constants.h",
   "PreviewInSolutionExplorer": false
 }

@@ -313,6 +313,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\ray.h" />
     <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\hittable.h" />
     <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\sphere.h" />
+    <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\hittable_list.h" />
+    <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\constants.h" />
+    <ClInclude Include="C:\Users\tsuna\source\repos\Raytracer\src\camera.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\tsuna\source\repos\Raytracer\out\build\ZERO_CHECK.vcxproj">

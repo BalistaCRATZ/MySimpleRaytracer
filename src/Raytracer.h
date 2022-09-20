@@ -5,10 +5,10 @@
 
 #include <iostream>
 #include "vec3.h"
+#include "ray.h"
 
 // TODO: Reference additional headers your program requires here.
 
 
 //Function declarations
-colour ray_colour(const ray&);
-double hit_sphere(const ray&, const point3&, double);
+colour ray_colour(const ray& r);

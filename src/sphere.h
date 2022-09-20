@@ -11,10 +11,11 @@ public:
 
 	double radius;
 	point3 centre;
+	std::shared_ptr<material> mat_ptr;
 
 	sphere() {};
-	sphere(double rad, const point3& c)
-		: radius(rad), centre(c) {};
+	sphere(double rad, const point3& c, std::shared_ptr<material> m)
+	: radius(rad), centre(c), mat_ptr(m) {};
 
 	virtual bool hit(const ray& r, double t_min, double t_max, hit_record& rec) const override;
 
@@ -41,6 +42,7 @@ bool sphere::hit(const ray& r, double t_min, double t_max, hit_record& rec) cons
 	rec.t = sol;
 	rec.p = r.at(sol);
 	rec.normal = unit_vector(rec.p - centre);
+	rec.mat_ptr = mat_ptr;
 
 	return true;
 

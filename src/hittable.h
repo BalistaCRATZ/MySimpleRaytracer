@@ -1,12 +1,15 @@
 #ifndef HITTABLE_H
 #define HITTABLE_H
 
-#include "ray.h"
+#include "constants.h"
+
+class material;
 
 struct hit_record {
 	double t;
 	point3 p;
 	vec3 normal;
+	std::shared_ptr<material> mat_ptr;
 };
 
 class hittable {
